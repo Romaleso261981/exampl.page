@@ -1,569 +1,1303 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Професійний монтаж кондиціонерів</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Coffee Machine Rental Website Template Demo</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <!-- header -->
-    <header class="header">
-      <div class="container header__content">
-        <nav class="header__nav">
-          <a class="logo logo--header" href="./index.html"
-            ><span class="logo__accent">Web</span>Studio</a
-          >
-          <button
-            class="menu__toggle js-open-menu flex-centered"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg width="40" height="40" viewBox="0 0 20 20">
-              <use href="./images/sprite.svg#menu-open"></use>
-            </svg>
-          </button>
 
-          <ul class="header__menu list">
-            <li class="header__item">
-              <a class="header__link link" href="./index.html">Студия</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link link header__link--active-page" href="./index.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="header__item"><a class="header__link link" href="">Контакты</a></li>
-          </ul>
-        </nav>
-        <ul class="header__contacts list">
-          <li class="header__item">
-            <a class="header__contact link" href="mailto:info@devstudio.com">
-              <svg class="header__icon" width="16" height="12">
-                <use href="./images/sprite.svg#pics-envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="header__item">
-            <a class="header__contact link" href="tel:+380961111111">
-              <svg class="header__icon" width="10" height="16">
-                <use href="./images/sprite.svg#pics-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
+  <body>
+    <div class="location">
+      <div class="location_box">
+        <div class="location_city">
+          <a href="#" class="location_city__svg">
+            <svg
+              width="30px"
+              height="30px"
+              viewBox="0 0 773 1014"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
+              <path
+                d="M386.096 0C283.733 0.118106 185.597 40.8339 113.215 113.215C40.8339 185.597 0.118106 283.733 0 386.096C0 665.955 278.1 922.046 363.319 993.859L386.974 1013.78L411.034 994.373C425.756 982.489 772.193 699.555 772.193 386.096C772.074 283.733 731.359 185.597 658.977 113.215C586.596 40.8339 488.459 0.118106 386.096 0V0ZM606.221 383.25C606.225 426.228 593.484 468.241 569.609 503.977C545.734 539.713 511.798 567.567 472.093 584.015C432.388 600.464 388.697 604.768 346.545 596.385C304.393 588.001 265.674 567.306 235.284 536.916C204.894 506.526 184.199 467.807 175.815 425.655C167.432 383.503 171.737 339.812 188.185 300.107C204.634 260.401 232.487 226.466 268.223 202.591C303.959 178.716 345.972 165.975 388.95 165.979C446.551 166.052 501.773 188.967 542.503 229.697C583.233 270.428 606.148 325.649 606.221 383.25Z"
+                fill="#C00407"
+              ></path>
+            </svg>
+          </a>
+          <p class="location_city__adress">303 E 61st St, New York, NY 10065</p>
+        </div>
+        <div class="location_contact">
+          <a href="" class="location_contact__svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+              height="20px"
+              viewBox="0 0 891.024 891.024"
+            >
+              <path
+                d="M2.8,180.875c46.6,134,144.7,286.2,282.9,424.399c138.2,138.2,290.4,236.301,424.4,282.9c18.2,6.3,38.3,1.8,52-11.8   l92.7-92.7l21.6-21.6c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.4c-19.5-19.5-51.2-19.5-70.7,0l-38.899,38.9   c-20.2,20.2-52.4,22.2-75,4.6c-44.7-34.8-89-73.899-131.9-116.8c-42.9-42.9-82-87.2-116.8-131.9c-17.601-22.6-15.601-54.7,4.6-75   l38.9-38.9c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.5c-19.5-19.5-51.2-19.5-70.7,0l-21.6,21.6l-92.7,92.7   C1,142.575-3.5,162.675,2.8,180.875z"
+              />
+            </svg>
+          </a>
+          <a href="tel:+1 (234) 567 89 00" class="location_contact__phone"
+            >+1 (234) 567 89 00</a
+          >
+        </div>
+      </div>
+    </div>
+    <header class="navbar">
+      <a href="index.html" class="logo"
+        ><img src="img/logo.svg" alt="coffee"
+      /></a>
+
+      <nav class="menu">
+        <ul class="menu-desktop">
+          <li class="menu-desktop__item">
+            <a class="menu-desktop__link" href="#">About Us</a>
+          </li>
+          <li class="menu-desktop__item">
+            <a class="menu-desktop__link" href="#">Coffee Machines</a>
+          </li>
+          <li class="menu-desktop__item">
+            <a class="menu-desktop__link" href="#">Testimonials</a>
+          </li>
+          <li class="menu-desktop__item">
+            <a class="menu-desktop__link" href="#">Services</a>
+          </li>
+          <li class="menu-desktop__item">
+            <a class="menu-desktop__link" href="#">Pricing</a>
+          </li>
+          <li class="menu-desktop__item">
+            <a class="menu-desktop__link" href="#">Contacts</a>
           </li>
         </ul>
-      </div>
+        <div></div>
+      </nav>
+
+      <a href="#" class="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </header>
+    <div class="overlay-navigation">
+      <a href="#" class="menu-button in-overlay active">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
 
-    <div class="menu__container js-menu-container" id="mobile-menu">
-      <button class="menu__toggle js-close-menu">
-        <svg width="40" height="40" viewBox="0 0 20 20">
-          <use href="./images/"></use>
-        </svg>
-      </button>
-
-      <ul class="mobile__menu list">
-        <li class="mobile__item">
-          <a class="mobile__link link" href="./index.html">Студия</a>
-        </li>
-        <li class="mobile__item">
-          <a class="mobile__link mobile__link--active-page link" href="./portfolio.html"
-            >Портфолио</a
-          >
-        </li>
-        <li class="mobile__item"><a class="mobile__link link" href="">Контакты</a></li>
-      </ul>
-
-      <a class="mobile__tel link" href="tel:+380961111111"> +38 096 111 11 11</a>
-      <a class="mobile__mail link" href="mailto:info@devstudio.com"> info@devstudio.com </a>
-
-      <ul class="mobile__socials list">
-        <li class="mobile__social">
-          <a class="mobile__social-link link" href="" aria-label="instagram">instagram</a>
-        </li>
-
-        <li class="mobile__social">
-          <a class="mobile__social-link link" href="" aria-label="twitter">twitter</a>
-        </li>
-
-        <li class="mobile__social">
-          <a class="mobile__social-link link" href="" aria-label="facebook">facebook</a>
-        </li>
-
-        <li class="mobile__social">
-          <a class="mobile__social-link link" href="" aria-label="linkedin">linkedin</a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="menu-mobile">
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">About Us</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">Coffee Machines</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">Testimonials</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">Services</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">Pricing</a>
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-
     <main>
-      <h1 class="visually-hidden">Наші роботи</h1>
-      <section class="portfolio section">
-        <div class="container">
-          <ul class="portfolio__filter filter list">
-            <li class="filter__item">
-              <button class="filter__btn" type="button">Все</button>
-            </li>
-
-            <li class="filter__item">
-              <button class="filter__btn" type="button">Установка спліт систем</button>
-            </li>
-
-            <li class="filter__item">
-              <button class="filter__btn" type="button">Чистка, ремонт, заправка кондиціонерів</button>
-            </li>
-
-            <li class="filter__item">
-              <button class="filter__btn" type="button">Установка та ремонт промислового обладнання</button>
-            </li>
-
-            <li class="filter__item">
-              <button class="filter__btn" type="button">Ремонт побутових холодильників</button>
-            </li>
-          </ul>
-
-          <ul class="portfolio__projects list">
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port1-des.webp 1x, ./images/port1-des@2x.webp 2x"
-                      media="(min-width:1200px)"
-                      type="image/webp"
-                    />
-                    <source
-                      srcset="./images/port1-tab.webp 1x, ./images/port1-tab@2x.webp 2x"
-                      media="(min-width:768px)"
-                      type="image/webp"
-                    />
-                    <source
-                      srcset="./images/port1-mob.webp 1x, ./images/port1-mob@2x.webp 2x"
-                      media="(min-width:320px)"
-                      type="image/webp"
-                    />
-                    <source
-                      srcset="./images/port1-des.jpg 1x, ./images/port1-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port1-tab.jpg 1x, ./images/port1-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port1-mob.jpg 1x, ./images/port1-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port1-mob.jpg"
-                      alt="Технокряк"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Технокряк</h2>
-                  <p class="card__type">Веб-сайт</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port2-des.jpg 1x, ./images/port2-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port2-tab.jpg 1x, ./images/port2-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port2-mob.jpg 1x, ./images/port2-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port2-mob.jpg"
-                      alt="Постер New Orlean vs Golden Star"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Постер New Orlean vs Golden Star</h2>
-                  <p class="card__type">Дизайн</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port3-des.jpg 1x, ./images/port3-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port3-tab.jpg 1x, ./images/port3-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port3-mob.jpg 1x, ./images/port3-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port3-mob.jpg"
-                      alt="Ресторан Seafood"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Ресторан Seafood</h2>
-                  <p class="card__type">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port4-des.jpg 1x, ./images/port4-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port4-tab.jpg 1x, ./images/port4-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port4-mob.jpg 1x, ./images/port4-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port4-mob.jpg"
-                      alt="Проект Prime"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Проект Prime</h2>
-                  <p class="card__type">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port5-des.jpg 1x, ./images/port5-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port5-tab.jpg 1x, ./images/port5-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port5-mob.jpg 1x, ./images/port5-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port5-mob.jpg"
-                      alt="Проект Boxes"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Проект Boxes</h2>
-                  <p class="card__type">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port6-des.jpg 1x, ./images/port6-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port6-tab.jpg 1x, ./images/port6-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port6-mob.jpg 1x, ./images/port6-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port6-mob.jpg"
-                      alt="Inspiration has no Borders"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Inspiration has no Borders</h2>
-                  <p class="card__type">Веб-сайт</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port7-des.jpg 1x, ./images/port7-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port7-tab.jpg 1x, ./images/port7-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port7-mob.jpg 1x, ./images/port7-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port7-mob.jpg"
-                      alt="Издание Limited Edition"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Издание Limited Edition</h2>
-                  <p class="card__type">Дизайн</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port8-des.jpg 1x, ./images/port8-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port8-tab.jpg 1x, ./images/port8-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port8-mob.jpg 1x, ./images/port8-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port8-mob.jpg"
-                      alt="Проект LAB"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Проект LAB</h2>
-                  <p class="card__type">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="portfolio__item card">
-              <a href="" class="card__link">
-                <div class="card__thumb">
-                  <picture>
-                    <source
-                      srcset="./images/port9-des.jpg 1x, ./images/port9-des2x.jpg 2x"
-                      media="(min-width:1200px)"
-                    />
-                    <source
-                      srcset="./images/port9-tab.jpg 1x, ./images/port9-tab2x.jpg 2x"
-                      media="(min-width:768px)"
-                    />
-                    <source
-                      srcset="./images/port9-mob.jpg 1x, ./images/port9-mob2x.jpg 2x"
-                      media="(min-width:320px)"
-                    />
-                    <img
-                      src="./images/port9-mob.jpg"
-                      alt="Growing Business"
-                      class="portfolio__img"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <div class="card__overlay">
-                    Технокряк это современная площадка распространения коронавируса. Компании
-                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
-                    конкурентов.
-                  </div>
-                </div>
-                <div class="card__description">
-                  <h2 class="card__name">Growing Business</h2>
-                  <p class="card__type">APP</p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <!-- footer -->
-    <footer class="footer">
-      <div class="container footer__wrapper">
-        <div class="footer__info">
-          <a class="logo logo--footer" href="./index.html"
-            ><span class="logo__accent">Web</span>Studio</a
-          >
-          <address class="footer__address">
-            <p class="footer__our-location">м. Ладижин, вул. козацька, 24</p>
-            <a class="link footer__link" href="mailto:ladiginscormsg@gmail.com">ladiginscormsg@gmail.com</a>
-            <a class="link footer__link" href="tel:+380689478723">+38 068 947 87 23</a>
-          </address>
-        </div>
-
-        <div class="footer__socials">
-          <h2 class="footer__heading">приєднуйтесь</h2>
-          <ul class="socials list">
-            <li class="socials__item">
-              <a
-                class="socials__link socials__link--footer flex-centered"
-                href=""
-                aria-label="instagram"
-              >
-                <svg class="socials__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#socials-instagram"></use>
-                </svg>
-              </a>
-            </li>
-
-            <li class="socials__item">
-              <a
-                class="socials__link socials__link--footer flex-centered"
-                href=""
-                aria-label="twitter"
-              >
-                <svg class="socials__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#socials-twitter"></use>
-                </svg>
-              </a>
-            </li>
-
-            <li class="socials__item">
-              <a
-                class="socials__link socials__link--footer flex-centered"
-                href=""
-                aria-label="facebook"
-              >
-                <svg class="socials__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#socials-facebook"></use>
-                </svg>
-              </a>
-            </li>
-
-            <li class="socials__item">
-              <a
-                class="socials__link socials__link--footer flex-centered"
-                href=""
-                aria-label="linkedin"
-              >
-                <svg class="socials__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#socials-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <form class="subscription">
-          <h2 class="footer__heading">підписуйтесь на рекламу</h2>
-          <div class="subscription__field">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="subscription__input"
-              placeholder="E-mail"
-            />
-          </div>
-          <button class="button subscription__button" type="submit">
-            Підписатись
-            <svg class="subscription__btn-icon" width="24" height="24">
-              <use href="./images/sprite.svg#send"></use>
-            </svg>
-          </button>
-        </form>
+      <div class="time">
+        <div class="clock"></div>
+        <div class="date"></div>
       </div>
-    </footer>
-    <script defer src="js/mobile-menu.js"></script>
+      <div class="rent">
+        <div class="rent-info">
+          <p>Rental</p>
+          <h1>Rent a <span>Coffee </span><br />Machine</h1>
+          <h2>
+            Need a coffee machine for commercial or home use? Get one here!
+          </h2>
+          <button class="rent-button" type="submit">Coffee Machines</button>
+        </div>
+      </div>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-img">
+            <img src="img/warranty.jpg" alt="warranty" />
+          </div>
+          <div class="card-text">
+            <h1>Warranty Included</h1>
+            <p>
+              Our company provides a full warranty service and all kinds of
+              high-quality repairs.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="img/delivery.jpg" alt="delivery" />
+          </div>
+          <div class="card-text">
+            <h1>Next-Day Delivery</h1>
+            <p>
+              We deliver your coffee machine within 1 day after we conclude the
+              rental agreement.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="img/prices.jpg" alt="price" />
+          </div>
+          <div class="card-text">
+            <h1>Affordable Prices</h1>
+            <p>
+              With our low prices, everyone can enjoy coffee from a professional
+              coffee machine.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-coffee">
+        <figure>
+          <div class="foto-coffee">
+            <img src="img/coffee.jpg" alt="coffee" />
+          </div>
+        </figure>
+
+        <figure>
+          <div class="coffee-space">
+            <p>About</p>
+            <h1>About Coffee Space</h1>
+            <h2>
+              For 10 years, our company has been marking sure that you can
+              always drink the most delicious coffee from the best coffee
+              machines.
+            </h2>
+            <h3>
+              We offer our customers a wide selection of coffee machines for
+              different budgets. In addition to the equipment, we also sell
+              coffee beans from the best producers. Our company does everything
+              to ensure that you can enjoy delicious coffee whenever you want.
+            </h3>
+            <div class="about-coffee-space">
+              <div class="tick-with-text">
+                <img class="picture" src="img/tick.png" alt="tick" />
+                <span>For offices and commercial use</span>
+              </div>
+              <p class="inform">
+                We offer our corporate clients coffee machines with high
+                performance. You can rent a coffee machine for use in office
+                kitchens and coffee shops.
+              </p>
+              <div class="tick-with-text">
+                <img class="picture" src="img/tick.png" alt="tick" />
+                <span>For your home</span>
+              </div>
+              <p class="inform">
+                If you want to enjoy delicious and aromatic coffee at home, you
+                will find budget and compact options in our store.
+              </p>
+            </div>
+          </div>
+        </figure>
+      </div>
+      <div class="espresso">
+        <div class="coffee-photo">
+          <h1>Indulgo<span>Z9</span></h1>
+          <hr class="line" />
+          <h2>Powerful coffee machine for delicious coffee.</h2>
+        </div>
+        <div class="Coffee-Beans">
+          <h3>Espresso Coffee <br />Beans</h3>
+          <h4>Just<span class="price">$4.00</span></h4>
+          <p class="wort">Order now<span class="small-arrow">→</span></p>
+        </div>
+      </div>
+      <div class="rent-box">
+        <p>Steps</p>
+        <h1>How to Rent a Coffee Machine</h1>
+        <h2>You're just 4 easy steps from great coffee.</h2>
+      </div>
+      <div class="rent-container">
+        <figure>
+          <img src="img/coffee.png" alt="coffee" />
+          <figcaption>
+            <div>
+              <h6><span>01.</span>Select a Coffee Machine</h6>
+              <p>
+                In our online store, you will find coffee machines of any size
+                and performance.
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/girl.png" alt="girl" />
+          <figcaption>
+            <div>
+              <h6><span>02.</span>Send a Request</h6>
+              <p>
+                Add the coffee machine to the cart, and our manager will contact
+                you soon to conclude the agreement.
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/people.png" alt="people" />
+          <figcaption>
+            <div>
+              <h6><span>03.</span>Expect Delivery</h6>
+              <p>
+                Delivery of the coffee machine is carried out within a day after
+                the confirmation of your order.
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/man.png" alt="man" />
+          <figcaption>
+            <div>
+              <h6><span>04.</span>Enjoy Delicious Coffee</h6>
+              <p>
+                We will connect and configure the coffee machine, you just have
+                to press the button and enjoy!
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="info-special">
+        <div class="special">
+          <p>Special</p>
+          <h1>Introducing SMIK Original 2021</h1>
+          <h2>
+            We're delighted to announce that one of the most stylish and
+            high-performing coffee machines by the famous Italian brand is now
+            available for rent!
+          </h2>
+          <button class="special-rent-button">Rent Now</button>
+          <button class="special-character-button">Characteristics</button>
+        </div>
+        <div class="special-foto">
+          <img src="img/coffee-machine-red.jpg" alt="red-coffe-machin" />
+        </div>
+      </div>
+      <div class="brand-carusel">
+        <button class="arrow prev-icon">⇦</button>
+        <div class="slides-brand"></div>
+        <button class="arrow next-icon">⇨</button>
+      </div>
+      <div class="rich-coffee">
+        <p>Our coffee</p>
+        <h1>Discover the Rich Coffee Taste</h1>
+        <h2>
+          We work with one of the best coffee producers. Golden Peak offers
+          different coffee varieties for all coffeeholics. Just click on the
+          image and add the product to the cart.
+        </h2>
+      </div>
+      <div class="carusel-coffee">
+        <button class="prev-button">⇦</button>
+        <div class="slides-coffee"></div>
+        <button class="next-button">⇨</button>
+      </div>
+      <div class="aroma-taste">
+        <figure>
+          <div class="aroma-cup">
+            <img src="img/aroma-cap.png" alt="coffee" />
+          </div>
+        </figure>
+        <figure>
+          <div class="coffee-taste">
+            <p>Exceptional Taste</p>
+            <h1>Divine Aroma in Every Cup</h1>
+            <h2>
+              We supply our customers with only the best coffee and professional
+              coffee machines. Thanks to our rental service, you can enjoy
+              really exceptional coffee for affordable price.
+            </h2>
+            <h3>
+              Good coffee is an energy boost for the whole day and the source of
+              a good mood. We at Coffee Space understand this better than anyone
+              else, and for 10 years now we have been offering our customers
+              reliable coffee equipment and the best varieties of coffee beans.
+            </h3>
+            <div class="best-beans">
+              <div class="taste">
+                <div class="taste-picture">
+                  <img src="img/bean.png" alt="beans" />
+                </div>
+                <div class="description">
+                  <h1>Best Beans</h1>
+                  <p>
+                    Our partner is Golden Peak, one of the best coffee producers
+                    in the world. With the coffee machine rental, you can also
+                    order any coffee variety you prefer.
+                  </p>
+                </div>
+              </div>
+              <div class="taste">
+                <div class="taste-picture">
+                  <img src="img/cup-coffee.png" alt="cup" />
+                </div>
+                <div class="description">
+                  <h1>Always on Time</h1>
+                  <p>
+                    Our experts will deliver your order strictly on the
+                    specified day and at the specified time. We carry out
+                    regular deliveries in accordance with your wishes.
+                  </p>
+                </div>
+              </div>
+              <div class="taste">
+                <div class="taste-picture">
+                  <img src="img/icon.png" alt="machin" />
+                </div>
+                <div class="description">
+                  <h1>Variety of Coffee Machines</h1>
+                  <p>
+                    We are providers of bean-to-cup coffee machines and
+                    professional equipment for offices and coffee shops. We
+                    offer affordable rental solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </figure>
+      </div>
+      <div class="faq-box">
+        <div class="faq-foto">
+          <img src="img/faq.png" alt="faq-foto" />
+        </div>
+        <div class="faq-info">
+          <p>Faq</p>
+          <h1>Still Have Any Questions?</h1>
+          <h2>
+            We have collected the most frequently asked questions regarding our
+            service. If you still have any questions, we will be happy to answer
+            them in a personal consultation.
+          </h2>
+          <div class="All-questions">
+            <button class="accordion">
+              What coffee machines do you offer?
+            </button>
+            <div class="panel">
+              <p>
+                We offer our customers various types of coffee machines – from
+                manual ones for home use to professional equipment.
+              </p>
+            </div>
+            <button class="accordion">
+              Can I use my coffee in a rented coffee machine?
+            </button>
+            <div class="panel">
+              <p>
+                Sure. You can buy our coffee beans if you wish. But you can also
+                use any other coffee beans.
+              </p>
+            </div>
+            <button class="accordion">
+              What is the minimum rental period?
+            </button>
+            <div class="panel">
+              <p>You can rent a coffee machine for at least 2 months.</p>
+            </div>
+            <button class="accordion">
+              What if the coffee machine breaks down?
+            </button>
+            <div class="panel">
+              <p>
+                In the event of a malfunction of the coffee machine, you need to
+                contact our manager, and we will immediately repair or replace
+                the coffee machine.
+              </p>
+            </div>
+            <button class="accordion">How to order a coffee machine?</button>
+            <div class="panel">
+              <p>
+                Choose a coffee machine right on the website or send us a
+                request if you need advice. We will contact you, discuss all the
+                details, send you a rental agreement, and install the chosen
+                coffee machine.
+              </p>
+            </div>
+            <button class="accordion">
+              What if I want to cancel my coffee machine rental?
+            </button>
+            <div class="panel">
+              <p>
+                You can terminate your rental at any time. To do this, inform
+                our manager about your decision, and our specialists will pick
+                up the coffee machine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="free-month">
+        <div class="offer-text">
+          <h1>Get 1 month <span>free*</span> usage</h1>
+          <p>
+            *Rent any coffee machine for at least 6 months and get 1 month for
+            free! <br />This promotion is valid only until May 31, 2021, and
+            can't be combined with other offers.
+          </p>
+          <div class="offer_button">
+            <button class="now-button">Rent Now</button>
+            <button class="learn-button">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing">
+        <p>Pricing</p>
+        <h1>Ready to Rent a Coffee Machine?</h1>
+        <h2>
+          We offer several pricing plans depending on what type of equipment you
+          need.
+        </h2>
+      </div>
+      <div class="pricing-card">
+        <div class="manual">
+          <img src="img/black-cup.png" alt="black-cup" />
+          <p class="manual-price"><span>$190</span> Manual</p>
+          <div class="manual-line">
+            <hr />
+            <span>per month</span>
+          </div>
+          <div class="manual-info">
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span
+                >Get 2 packs of beans for free with your coffee machine.</span
+              >
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Approximately 600 cups per month.</span>
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Ease to prepare drinks.</span>
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Easy to keep equipment clean.</span>
+            </div>
+          </div>
+          <button class="select">Select</button>
+        </div>
+        <div class="manual">
+          <img src="img/black-two-cup.png" alt="black-cup" />
+          <p class="manual-price"><span>$299</span>Automatic</p>
+          <div class="manual-line">
+            <hr />
+            <span>per month</span>
+          </div>
+          <div class="manual-info">
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span
+                >Get 3 packs of beans for free with your coffee machine.</span
+              >
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Approximately 1000 cups per month.</span>
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Reliable and simple equipment.</span>
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>User-friendly interface.</span>
+            </div>
+          </div>
+          <button class="select">Select</button>
+        </div>
+        <div class="manual">
+          <img src="img/all-cup.png" alt="black-cup" />
+          <p class="manual-price"><span>$499</span>Professional</p>
+          <div class="manual-line">
+            <hr />
+            <span>per month</span>
+          </div>
+          <div class="manual-info">
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span
+                >Get 5 packs of beans for free with your coffee machine.</span
+              >
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Approximately 2000 cups per month.</span>
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Statistics of prepared drinks.</span>
+            </div>
+            <div>
+              <img class="per-month" src="img/tick.png" alt="tick" />
+              <span>Automatic preparation of any drink.</span>
+            </div>
+          </div>
+          <button class="select">Select</button>
+        </div>
+      </div>
+      <div class="machines-box">
+        <!-- discover coffee machines we offer  -->
+        <div class="machines-box-header">
+          <p>COFFEE MACHINES</p>
+        </div>
+        <div class="machines-box-title">
+          <h2>Discover Coffee Machines We Offer</h2>
+        </div>
+        <div>
+          <p class="machines-box-text">
+            We offer professional coffee machines for commercial and home use.
+          </p>
+        </div>
+        <div class="machines-box-grid">
+          <div class="carousel">
+            <button class="prev">❮</button>
+            <div class="slides-container"></div>
+            <button class="next">❯</button>
+          </div>
+        </div>
+      </div>
+      <div class="ask_container">
+        <div class="ask_box">
+          <div class="ask_box_present">
+            <img src="img/coffeebar.jpg" alt="#" class="ask_box_present__img" />
+          </div>
+          <div class="ask_box_content">
+            <p class="ask_box_content__questions">Questions?</p>
+            <p class="ask_box_content__title">
+              Ask Us Anything About <span>Coffee</span>
+            </p>
+            <p class="ask_box_content__subtitle">
+              Coffee is our business. Ask us anything about the coffee machines
+              or coffee products if you have any questions.
+            </p>
+            <div class="ask_box_content_links">
+              <a href="" class="ask_box_content_links__faq">FAQ</a>
+              <a href="" class="ask_box_content_links__form">Ask a Question</a>
+            </div>
+          </div>
+        </div>
+        <div class="counter_fluid">
+          <div class="counter_box">
+            <div class="counter_box_list counter_box_list__first">
+              <div class="counter_box_list_post">
+                <svg
+                  width="70px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 80 80"
+                  enable-background="new 0 0 80 80"
+                  xml:space="preserve"
+                  style="max-width: 100%"
+                  height="100%"
+                >
+                  <g fill="currentColor">
+                    <g fill="currentColor">
+                      <path
+                        fill="currentColor"
+                        d="M62,66H18c-2.206,0-4-1.794-4-4V18c0-2.206,1.794-4,4-4h44c2.206,0,4,1.794,4,4v44    C66,64.206,64.206,66,62,66z M18,18v44h44.003L62,18H18z"
+                      ></path>
+                    </g>
+                    <g fill="currentColor">
+                      <rect
+                        x="17"
+                        y="24"
+                        fill="currentColor"
+                        width="47"
+                        height="4"
+                      ></rect>
+                    </g>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="24"
+                      y="35"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="33"
+                      y="35"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="24"
+                      y="43"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="33"
+                      y="43"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="24"
+                      y="51"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="33"
+                      y="51"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="42"
+                      y="51"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <rect
+                      x="51"
+                      y="51"
+                      fill="currentColor"
+                      width="5"
+                      height="4"
+                    ></rect>
+                  </g>
+                  <g fill="currentColor">
+                    <polygon
+                      fill="currentColor"
+                      points="45.9,46.829 40.586,41.514 43.414,38.686 45.9,41.171 53.586,33.486 56.414,36.314  "
+                    ></polygon>
+                  </g>
+                </svg>
+              </div>
+              <p class="counter_box_list_number">10</p>
+              <p class="counter_box_list_subtitle">
+                Years providing you with the most delicious coffee.
+              </p>
+            </div>
+            <div class="counter_box_list counter_box_list__second">
+              <div class="counter_box_list_post">
+                <svg
+                  width="70px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 100 100"
+                  style="enable-background: new 0 0 100 100; max-width: 100%"
+                  xml:space="preserve"
+                  height="100%"
+                >
+                  <g fill="currentColor">
+                    <path
+                      d="M44,54.9h16c3.3,0,6-2.7,6-6v-2c0-5.4-3.1-10.1-7.5-12.4c2.2-1.8,3.5-4.6,3.5-7.6c0-5.5-4.5-10-10-10s-10,4.5-10,10   c0,3,1.4,5.8,3.5,7.6c-4.5,2.3-7.5,7-7.5,12.4v2C38,52.2,40.7,54.9,44,54.9z M52,20.9c3.3,0,6,2.7,6,6s-2.7,6-6,6s-6-2.7-6-6   S48.7,20.9,52,20.9z M42,46.9c0-5.5,4.5-10,10-10s10,4.5,10,10v2c0,1.1-0.9,2-2,2H44c-1.1,0-2-0.9-2-2V46.9z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M94.3,57.9l-0.2-0.2C91,55,86.9,54.1,83.2,55C85,50.8,86,46.2,86,41.4c0-19-15.2-34.5-34-34.5S18,22.4,18,41.4   c0,6.1,1.6,11.8,4.3,16.8c-0.1,0-0.2,0-0.3,0l-12,2c-1.6,0.3-3,1.1-3.9,2.4c-0.9,1.3-1.3,2.9-1,4.5l3.4,20.7   c0.5,3.3,3.6,5.5,6.9,4.9l15-2.5c0.3,0,0.5,0,0.8,0l11.1,2.6c0.4,0.1,0.9,0.2,1.4,0.2c0.3,0,0.6,0,1-0.1l22.8-3.8   c1.4-0.2,2.6-0.9,3.5-2l23.5-26.6C95.2,59.9,95.1,58.6,94.3,57.9z M22,41.4c0-16.8,13.5-30.5,30-30.5s30,13.7,30,30.5   c0,7.9-3,15.1-7.8,20.5l-1,1.1c-1.3,1.3-2.7,2.5-4.1,3.5c-2.4-4.2-7.3-6.7-12.3-5.8l-15.7,2.6c-0.4,0.1-0.7,0-1.1-0.1l-9.5-3.9   c-1.1-0.5-2.3-0.8-3.5-1C23.8,53.4,22,47.6,22,41.4z M67.9,84.7c-0.3,0.4-0.7,0.6-1.2,0.7L44,89.1c-0.3,0-0.5,0-0.8,0l-11.1-2.6   c-0.5-0.1-0.9-0.2-1.4-0.2c-0.3,0-0.6,0-1,0.1l-15,2.5c-1.1,0.2-2.1-0.6-2.3-1.7L9,66.5c-0.1-0.5,0-1.1,0.4-1.5   c0.3-0.4,0.8-0.7,1.3-0.8l12-2c2.1-0.3,4.3-0.1,6.3,0.7l9.5,3.9c1,0.4,2.2,0.5,3.2,0.4l15.7-2.6c3.7-0.6,7.2,1.4,8.6,4.7l-14.6,2.4   c-1.1,0.2-1.8,1.2-1.6,2.3c0.2,1.1,1.2,1.8,2.3,1.7l16.8-2.8c0.2,0,0.4-0.1,0.6-0.2v0c0.2-0.1,0.4-0.3,0.6-0.5l10.3-11   c2.6-2.8,6.6-3.3,9.7-1.5L67.9,84.7z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <p class="counter_box_list_number">1240+</p>
+              <p class="counter_box_list_subtitle">
+                Clients order our coffee machines and coffee beans each month.
+              </p>
+            </div>
+            <div class="counter_box_list counter_box_list__third">
+              <div class="counter_box_list_post">
+                <svg
+                  width="70px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 64 64"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  style="max-width: 100%"
+                  height="100%"
+                >
+                  <path
+                    d="M58.915,50.884H21.414V34.553c2.863-2.273,4.723-5.757,4.784-9.674h17.83v1.567c0,0.829,0.672,1.5,1.5,1.5  s1.5-0.671,1.5-1.5v-1.567h0.389c6.069,0,11.007-4.938,11.007-11.007S53.485,2.864,47.416,2.864H15.191  c-0.272,0-0.54,0.016-0.806,0.036c-0.263-0.019-0.527-0.036-0.794-0.036c-6.952,0-12.608,5.656-12.608,12.608v9.207  c0,4.289,2.157,8.079,5.438,10.358v15.846H5.085c-2.672,0-4.847,2.174-4.847,4.847v3.905c0,0.828,0.671,1.5,1.5,1.5h60.523  c0.828,0,1.5-0.672,1.5-1.5V55.73C63.762,53.058,61.588,50.884,58.915,50.884z M3.982,24.68v-9.207c0-5.298,4.311-9.608,9.608-9.608  c0.202,0,0.401,0.016,0.696,0.037c0.074,0.004,0.15,0.005,0.226-0.001c0.225-0.018,0.449-0.035,0.679-0.035h32.225  c4.415,0,8.007,3.592,8.007,8.007s-3.592,8.007-8.007,8.007H24.699c-0.829,0-1.5,0.671-1.5,1.5v1.301  c0,5.298-4.311,9.608-9.608,9.608S3.982,29.978,3.982,24.68z M9.421,36.564c1.308,0.46,2.707,0.724,4.17,0.724  c1.708,0,3.336-0.343,4.823-0.961v14.557H9.421V36.564z M60.762,58.136H3.238V55.73c0-1.019,0.829-1.847,1.847-1.847h53.83  c1.019,0,1.847,0.828,1.847,1.847V58.136z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M41.44,36.55c-0.333-0.08-0.711-0.163-1.203-0.22l-0.187-0.859c-0.176-0.811-0.982-1.325-1.783-1.148  c-0.811,0.176-1.324,0.974-1.148,1.783l2.504,11.549c0.002,0.009,0.004,0.017,0.006,0.025v0.001v0.001  c0.036,0.163,0.101,0.314,0.186,0.454c0.007,0.012,0.012,0.024,0.02,0.036c0.082,0.127,0.184,0.237,0.298,0.334  c0.02,0.016,0.037,0.031,0.057,0.046c0.116,0.089,0.243,0.161,0.383,0.213c0.021,0.008,0.043,0.013,0.064,0.02  c0.146,0.047,0.297,0.079,0.458,0.079h8.865l0,0c0.001,0,0.001,0,0.001,0c0.001,0,0.001,0,0.001,0c0.16,0,0.311-0.032,0.454-0.078  c0.023-0.008,0.046-0.013,0.069-0.021c0.137-0.052,0.263-0.123,0.378-0.21c0.021-0.017,0.041-0.034,0.063-0.052  c0.112-0.095,0.212-0.202,0.292-0.326c0.01-0.016,0.017-0.032,0.026-0.049c0.079-0.133,0.141-0.276,0.176-0.432  c0.001-0.005,0.005-0.009,0.006-0.014l0.003-0.014c0-0.002,0.001-0.003,0.001-0.004l2.508-11.558  c0.176-0.81-0.338-1.608-1.147-1.784c-0.81-0.174-1.608,0.339-1.784,1.147l-0.275,1.268c-0.511-0.028-0.824-0.101-1.189-0.188  c-0.556-0.133-1.186-0.284-2.376-0.284s-1.82,0.151-2.375,0.284c-0.47,0.113-0.841,0.202-1.677,0.202  C42.279,36.751,41.909,36.662,41.44,36.55z M45.489,39.467c0.469-0.113,0.84-0.202,1.675-0.202c0.836,0,1.207,0.089,1.677,0.202  c0.344,0.082,0.733,0.167,1.248,0.224l-1.339,6.173h-6.446l-1.377-6.354c0.515,0.121,1.124,0.242,2.186,0.242  C44.303,39.751,44.933,39.6,45.489,39.467z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M47.027,32.861V30.49c0-0.829-0.672-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v2.372c0,0.828,0.672,1.5,1.5,1.5  S47.027,33.689,47.027,32.861z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M11.5,27.433c0.829,0,1.5-0.671,1.5-1.5V14.219c0-0.829-0.671-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v11.713  C10,26.761,10.671,27.433,11.5,27.433z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M16.333,27.433c0.829,0,1.5-0.671,1.5-1.5V14.219c0-0.829-0.671-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v11.713  C14.833,26.761,15.505,27.433,16.333,27.433z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <p class="counter_box_list_number">8</p>
+              <p class="counter_box_list_subtitle">
+                Modern coffee machines are for rent on our website right now.
+              </p>
+            </div>
+            <div class="counter_box_list counter_box_list__fourth">
+              <div class="counter_box_list_post">
+                <svg
+                  width="70px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 48 48"
+                  enable-background="new 0 0 48 48"
+                  xml:space="preserve"
+                  style="max-width: 100%"
+                  height="100%"
+                >
+                  <g fill="currentColor">
+                    <g fill="currentColor">
+                      <path
+                        fill="currentColor"
+                        d="M10,38.1c-2.6,0-5.1-1.8-6.4-4.6c-0.8-1.7-1-3.6-0.6-5.3c0.4-1.8,1.5-3.2,3-3.8c0.7-0.3,1.4-0.5,2.2-0.5    c2.6,0,5.1,1.8,6.4,4.6c1.7,3.7,0.6,7.8-2.4,9.2C11.5,37.9,10.7,38.1,10,38.1z M8.1,25.8c-0.5,0-0.9,0.1-1.3,0.3    c-0.9,0.4-1.6,1.3-1.9,2.5c-0.3,1.3-0.1,2.7,0.5,4c1,2.1,2.8,3.4,4.6,3.4c0.5,0,0.9-0.1,1.3-0.3c2-0.9,2.7-3.9,1.4-6.5    C11.8,27.2,9.9,25.8,8.1,25.8z"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M12,37.4c-0.1,0-0.2,0-0.3,0c-0.5-0.1-0.9-0.7-0.7-1.2c0.3-1.1-0.2-2.4-1.1-3c-0.3-0.2-0.6-0.4-1-0.6    c-0.3-0.2-0.7-0.3-1-0.5c-2.3-1.5-3.3-4.6-2.4-7.1c0.2-0.5,0.8-0.8,1.3-0.6c0.5,0.2,0.8,0.8,0.6,1.3c-0.6,1.7,0.1,3.8,1.6,4.8    c0.3,0.2,0.5,0.3,0.8,0.4c0.4,0.2,0.9,0.4,1.3,0.8c1.5,1.2,2.3,3.3,1.8,5.2C12.8,37.1,12.4,37.4,12,37.4z"
+                      ></path>
+                    </g>
+                    <g fill="currentColor">
+                      <g fill="currentColor">
+                        <path
+                          fill="currentColor"
+                          d="M22.5,7.9c-0.3,0-0.5-0.1-0.7-0.3c-0.5-0.5-1.2-1.5-1.1-2.9c0-0.3,0.1-0.6,0.2-0.8L21,3.6     c0.3-1,0.3-1.1,0.2-2c-0.1-0.5,0.3-1.1,0.8-1.1c0.6-0.1,1.1,0.3,1.1,0.8c0.2,1.3,0.1,1.7-0.3,2.9l-0.1,0.3c0,0.2-0.1,0.3-0.1,0.5     c0,0.4,0.2,0.8,0.5,1.2c0.4,0.4,0.4,1,0,1.4C23,7.8,22.7,7.9,22.5,7.9z"
+                        ></path>
+                        <path
+                          fill="currentColor"
+                          d="M26.4,7.9c-0.3,0-0.5-0.1-0.7-0.3c-0.5-0.5-1.2-1.5-1.1-2.8c0-0.3,0.1-0.6,0.2-0.8l0.1-0.3     c0.3-1,0.3-1.1,0.2-2C25,1.1,25.4,0.6,26,0.5c0.6-0.1,1.1,0.3,1.1,0.8c0.2,1.3,0.1,1.7-0.3,2.9l-0.1,0.3c0,0.2-0.1,0.3-0.1,0.5     c0,0.4,0.2,0.8,0.5,1.2c0.4,0.4,0.4,1,0,1.4C26.9,7.8,26.7,7.9,26.4,7.9z"
+                        ></path>
+                        <path
+                          fill="currentColor"
+                          d="M30.3,7.9c-0.3,0-0.5-0.1-0.7-0.3c-0.5-0.5-1.2-1.5-1.1-2.8c0-0.3,0.1-0.6,0.2-0.8l0.1-0.3     c0.3-1,0.3-1.1,0.2-2c-0.1-0.5,0.3-1.1,0.8-1.1c0.6-0.1,1.1,0.3,1.1,0.8c0.2,1.3,0.1,1.7-0.3,2.9l-0.1,0.3c0,0.2-0.1,0.3-0.1,0.5     c0,0.4,0.2,0.8,0.5,1.2c0.4,0.4,0.4,1,0,1.4C30.8,7.8,30.6,7.9,30.3,7.9z"
+                        ></path>
+                      </g>
+                      <g fill="currentColor">
+                        <path
+                          fill="currentColor"
+                          d="M33.9,38.9H18.8c-0.5,0-0.9-0.4-1-0.9l-2.9-27c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.7-0.3h20.1     c0.3,0,0.5,0.1,0.7,0.3c0.2,0.2,0.3,0.5,0.3,0.8l-2.2,27C34.9,38.5,34.4,38.9,33.9,38.9z M19.7,36.9H33l2-25H17L19.7,36.9z"
+                        ></path>
+                        <path
+                          fill="currentColor"
+                          d="M34.4,33.2c-0.4,0-0.7-0.2-0.9-0.5c-0.3-0.5-0.1-1.1,0.4-1.3c7-3.6,8.9-8,9.3-11c0.2-1.8-0.6-3.5-2.1-4.2     c-0.7-0.3-1.4-0.4-2-0.1c-1.6,0.6-2.6,2.7-2.6,2.8c-0.2,0.5-0.8,0.7-1.3,0.5c-0.5-0.2-0.7-0.8-0.5-1.3c0.1-0.1,1.3-2.9,3.8-3.8     c1.2-0.4,2.4-0.4,3.6,0.2c2.3,1.1,3.6,3.6,3.3,6.3c-0.4,3.5-2.6,8.5-10.3,12.5C34.7,33.2,34.5,33.2,34.4,33.2z"
+                        ></path>
+                      </g>
+                    </g>
+                    <path
+                      fill="currentColor"
+                      d="M42.3,47.5H5.8c-0.4,0-0.7-0.2-0.9-0.5l-2.5-4.3c-0.2-0.3-0.2-0.7,0-1c0.2-0.3,0.5-0.5,0.9-0.5h41.5   c0.4,0,0.7,0.2,0.9,0.5c0.2,0.3,0.2,0.7,0,1L43.1,47C42.9,47.3,42.6,47.5,42.3,47.5z M6.3,45.5h35.3l1.3-2.3H5L6.3,45.5z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <p class="counter_box_list_number">5</p>
+              <p class="counter_box_list_subtitle">
+                Coffee varieties you can buy together with the coffee machine
+                rental.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="present-box-flex">
+          <!-- MEET SMIK  -->
+          <figure>
+            <div class="">
+              <img
+                alt="Heading photo"
+                class="present-box-img"
+                src="img/meet-smik-coffee-machine.webp"
+              />
+            </div>
+          </figure>
+          <figure>
+            <div class="present-box-caption">
+              <p class="present-box-header">NEW ARRIVAL</p>
+              <p class="present-box-title">Meet SMIK Coffee Machine</p>
+              <p class="present-box-stylish-coffee-machine">
+                Your morning routine will never be the same with this stylish
+                coffee machine. It is high-performing yet not too capacious and
+                is great both for office and home use.
+              </p>
+              <p class="present-box-description">
+                This coffee machine is simple to operate. You just need to pour
+                coffee into the container, pour in water, and press one button.
+                The machine also froths milk for the latte.
+              </p>
+              <div class="present-box-flex-icon">
+                <div class="present-box-space">
+                  <img src="img/icon.svg" class="present-box-icon" alt="icon" />
+                  <span class="present-box-specific"
+                    >Stainless steel cup holder;
+                  </span>
+                </div>
+                <div class="present-box-space">
+                  <img src="img/icon.svg" class="present-box-icon" alt="icon" />
+                  <span class="present-box-specific"
+                    >Removable drip-tray for cups;</span
+                  >
+                </div>
+                <div class="present-box-space">
+                  <img src="img/icon.svg" class="present-box-icon" alt="icon" />
+                  <span class="present-box-specific"
+                    >3 filters included (1 cup, 2 cups, paper pods);</span
+                  >
+                </div>
+                <div class="present-box-space">
+                  <img src="img/icon.svg" class="present-box-icon" alt="icon" />
+                  <span class="present-box-specific">Flow stop function;</span>
+                </div>
+                <div class="present-box-space">
+                  <img src="img/icon.svg" class="present-box-icon" alt="icon" />
+                  <span class="present-box-specific">Steam option</span>
+                </div>
+              </div>
+              <p class="present-box-description">
+                This coffee machine is presented in a luxurious red color and
+                will look great in your office or home kitchen. Hurry up to
+                place your order, the quantity of this equipment is limited!
+              </p>
+              <a class="machines-box-cart" href="">Rent Now</a>
+            </div>
+          </figure>
+        </div>
+        <div class="promotion">
+          <div class="relate">
+            <!-- everything Related to coffee  -->
+            <p class="present-box-header">SERVICES</p>
+            <h2 class="present-box-title">Everything Related to Coffee</h2>
+            <p class="present-box-stylish-coffee-machine">
+              Our company is the ultimate place for everything related to
+              coffee. We offer coffee machines for rent, as well as repairs,
+              accessories, and supplies.
+            </p>
+            <div class="relate-coffee">
+              <div class="relate-nav">
+                <p class="relate-nav-text">Rental Services</p>
+                <p class="relate-nav-text">Consulting</p>
+                <p class="relate-nav-text">Accessories</p>
+                <p class="relate-nav-text">Repair</p>
+              </div>
+              <div class="relate-coffee-main">
+                <div class="relate-coffee-space">
+                  <img
+                    class="present-box-img"
+                    src="img/coffee-machine-rental.webp"
+                    alt="Coffee Machine Rental"
+                  />
+                  <p class="relate-sub-header">Coffee Machine Rental.</p>
+                  <hr class="relate-strip" />
+                  <p class="relate-text">
+                    Do you want to always drink your favorite coffee, but don't
+                    want to waste time brewing it? Our company is ready to help
+                    you. Here you can rent manual and automatic coffee machines
+                    that will prepare your favorite drink as quickly and tasty
+                    as possible.
+                  </p>
+                  <p class="relate-description">
+                    In our company, you will find coffee machines for both home
+                    and office use, as well for coffee shops.
+                  </p>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Only modern manual and automatic coffee machines from
+                      trusted brands.</span
+                    >
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Any coffee machines, from inexpensive for home use to
+                      professional equipment for a coffee shop.
+                    </span>
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Simple conditions for renting a coffee machine – for any
+                      period with a minimum deposit.</span
+                    >
+                  </div>
+                </div>
+                <div class="relate-coffee-space">
+                  <img
+                    class="present-box-img"
+                    src="img/consulting-for-coffee-shop-owners.webp"
+                    alt="Consulting for Coffee Shop Owners"
+                  />
+                  <p class="relate-sub-header">
+                    Consulting For Coffee Shop Owners.
+                  </p>
+                  <hr class="relate-strip" />
+                  <p class="relate-text">
+                    We offer consulting services for clients who wish to rent a
+                    coffee machine or order coffee beans for professional use.
+                  </p>
+                  <p class="relate-description">
+                    You can get advice from our specialists in any convenient
+                    way. Our experts will provide answers to all your questions
+                    and help you solve any problems related to choosing
+                    equipment or starting a coffee shop, like:
+                  </p>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >What is the best coffee machine for professional use in a
+                      small coffee shop or a large restaurant?
+                    </span>
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Which coffee brands are suitable for use in professional
+                      equipment and how to calculate the required coffee
+                      supply?</span
+                    >
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >How often is it necessary to diagnose professional
+                      equipment?</span
+                    >
+                  </div>
+                </div>
+                <div class="relate-coffee-space">
+                  <img
+                    class="present-box-img"
+                    src="img/coffee-machine-accessories.webp"
+                    alt="Coffee Machine Accessories"
+                  />
+                  <p class="relate-sub-header">Coffee Machine Accessories.</p>
+                  <hr class="relate-strip" />
+                  <p class="relate-text">
+                    A reliable coffee machine is important, but accessories will
+                    also come in handy for home, office, or commercial use.
+                  </p>
+                  <p class="relate-description">
+                    We offer our customers everything they need for comfortable
+                    brewing. We sell disposable cups, caps, spoons, spare parts
+                    for coffee machines, filters, and many other accessories
+                    that you may need for the comfortable use of the equipment.
+                  </p>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Disposable cups made from recyclable cardboard can be
+                      branded to match your company name.
+                    </span>
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Any number of tissues, disposable spoons, sugar sticks,
+                      and other accessories.</span
+                    >
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Replaceable filters and other spare parts for coffee
+                      machines of any brand.</span
+                    >
+                  </div>
+                </div>
+                <div class="relate-coffee-space">
+                  <img
+                    class="present-box-img"
+                    src="img/coffee-machine-repair.webp"
+                    alt="Coffee Machine Repair"
+                  />
+                  <p class="relate-sub-header">Coffee Machine Repair.</p>
+                  <hr class="relate-strip" />
+                  <p class="relate-text">
+                    Coffee machines, like any other equipment, can fail. If
+                    that's your case, it's better to entrust it to a competent
+                    specialist.
+                  </p>
+                  <p class="relate-description">
+                    Our employees will carry out repairs as soon as possible.
+                    They carry out maintenance of coffee machines of all brands
+                    and models that we offer for rent. The experts will quickly
+                    arrive at the site and solve a problem of any complexity.
+                  </p>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Regular service. Scheduled maintenance will help to keep
+                      your coffee machine in the best condition.
+                    </span>
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Replacement of all spare parts and consumables when
+                      needed fo free.</span
+                    >
+                  </div>
+                  <div class="present-box-space">
+                    <img
+                      class="present-box-icon"
+                      src="img/icon.svg"
+                      alt="icon"
+                    />
+                    <span class="present-box-specific"
+                      >Prompt replacement of the coffee machine in the event of
+                      a malfunction.</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="info-about-us">
+          <div class="full-info">
+            <div class="text-content">
+              <p>Contacts</p>
+              <h2>We're Always in Touch</h2>
+              <h2>Feel free to contact us if you need a consultation:</h2>
+            </div>
+            <div class="contacts-list">
+              <div class="full-contact">
+                <div class="full-adress">
+                  <h3 class="elements-heading">Address</h3>
+                  <p class="elements-text">
+                    303 E 61st St, New York, <br />NY 10065
+                  </p>
+                </div>
+                <div class="full-adress">
+                  <h3 class="elements-heading">Hours</h3>
+                  <p class="elements-text">
+                    Monday - Saturday: 11 AM - 9 PM <br />Sunday: 11 AM - 7 PM
+                  </p>
+                </div>
+                <div class="full-adress">
+                  <h3 class="elements-heading">Contacts</h3>
+                  <p class="elements-text">
+                    +1 (234) 567 89 00<br />
+                    coffeespace@email.com
+                  </p>
+                </div>
+              </div>
+
+              <div class="maps-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0137741242434!2d-73.96510858459358!3d40.76172177932639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62b94a8bd%3A0x10e739dd90a13f0!2zMzA1IEUgNjFzdCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1637785050304!5m2!1sru!2sua"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts-form">
+            <div class="container-form">
+              <form class="input-form">
+                <input
+                  class="w-form"
+                  type="text"
+                  placeholder="Enter your full name*"
+                  required
+                />
+                <input
+                  class="w-form"
+                  type="text"
+                  placeholder="Enter your phone number*"
+                  required
+                />
+                <input
+                  class="w-form"
+                  type="text"
+                  placeholder="Enter your e-mail*"
+                  required
+                />
+                <textarea
+                  class="w-form"
+                  type="text"
+                  placeholder="Type your message"
+                ></textarea>
+                <button class="button" type="submit">Request a Quote</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer_box">
+            <div class="footer_box_company footing">
+              <div class="footer_box_center">
+                <a href="index.html" class="footer_logo"
+                  ><img src="img/footlogo.svg" alt="soft"
+                /></a>
+              </div>
+              <p class="footer_box_company_title">
+                We offer coffee machines rental for home, office or commercial
+                use. Also, here you can buy coffee beans, as well as all the
+                necessary
+              </p>
+            </div>
+            <div class="footer_box_nav footing">
+              <p class="footer_box_nav__title">Navigation</p>
+              <ul class="footer_box_nav_list">
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">About Us</a>
+                </li>
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">How to Order</a>
+                </li>
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">Services</a>
+                </li>
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">Pricing</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_box_nav footing">
+              <p class="footer_box_nav__title">Shop</p>
+              <ul class="footer_box_nav_list">
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#"
+                    >Coffee Machines</a
+                  >
+                </li>
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">Coffee</a>
+                </li>
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">FAQ</a>
+                </li>
+                <li class="footer_box_nav_list__item">
+                  <a class="footer_box_nav_list__link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="creator">
+          <div class="creator_box">
+            <p class="creator_box__title">
+              © Created by 650-team-01 2021| All rights Reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/coffee-brand.js"></script>
+    <script src="js/carusel-coffee.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/faq-box.js"></script>
+    <script src="js/carusel-coffee-machines.js"></script>
   </body>
 </html>

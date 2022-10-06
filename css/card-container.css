@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap");
+.rent-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-gap: 5em;
+    padding: 55 0 110 0;
+}
+
+.rent-container img {
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+figure {
+    padding: 4px;
+    padding: 20px;
+}
+
+figcaption {
+    padding: 2px;
+    text-align: center;
+}
+
+h6 span {
+    color: #c00407;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.rent-container h6 {
+    color: #222;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.rent-container p {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 25.6px;
+}

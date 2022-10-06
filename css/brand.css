@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.brand-carusel {
+    display: flex;
+    background: #222;
+    padding: 30px 0 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand-carusel .slides-brand img {
+    width: 100%;
+    max-width: 165px;
+    height: 65px;
+}
+
+@media (max-width: 980px) {
+    .brand-carusel .slides-brand img {
+        max-width: 270px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-carusel .slides-brand img {
+        max-width: 380px;
+        height: 161px;
+    }
+}
+
+@media (max-width: 478px) {
+    .brand-carusel .slides-brand img {
+        max-width: 316px;
+        height: 134px;
+    }
+}
+
+.brand-carusel .slides-brand {
+    display: flex;
+}
+
+.arrow {
+    /* position: absolute; */
+    /* margin-top: 75px; */
+    background: rgb(241, 235, 235);
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.prev-icon {
+    left: 7px;
+}
+
+.next-icon {
+    right: 7px;
+}

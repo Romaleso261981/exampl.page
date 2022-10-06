@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.espresso {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 20px 30px 20px;
+  grid-gap: 20px;
+}
+@media (max-width: 800px) {
+  .espresso {
+    grid-template-columns: 1fr;
+  }
+}
+
+.coffee-photo {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-image: url(../img/coffee-machine.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  grid-gap: 20px;
+  padding-top: 10%;
+  min-height: 300px;
+}
+.Coffee-Beans {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/women.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 10% 0 0 10%;
+}
+.coffee-photo .line {
+  height: 5px;
+  width: 9%;
+  background-color: #c00407;
+  justify-self: center;
+}
+.espresso h1 span {
+  color: #c00407;
+  font-size: 40px;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.espresso h1 {
+  color: #222;
+  font-size: 34px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 40.8px;
+  justify-self: center;
+}
+
+.espresso h2 {
+  color: #8c8c8c;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  line-height: 25.6px;
+  justify-self: center;
+}
+.Coffee-Beans h3 {
+  color: #fff;
+  font-size: 34px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.Coffee-Beans h4 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 10em;
+}
+.wort {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding-top: 30px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.Coffee-Beans span {
+  padding: 15px;
+  font-size: 32px;
+  color: #c00407;
+  font-weight: bold;
+  line-height: 48px;
+  font-family: "Poppins", sans-serif;
+}
+.Coffee-Beans .price {
+  color: #c00407;
+}
+.Coffee-Beans .small-arrow {
+  color: #c00407;
+  font-size: 15px;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+.pricing>p {
+    color: #c00407;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.pricing>h1 {
+    color: #222;
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.pricing>h2 {
+    text-align: center;
+    color: #656565;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 30px 0px 0px 0px;
+}

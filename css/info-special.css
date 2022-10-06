@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.info-special {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: brown;
+    align-items: center;
+    padding: 140px 40px;
+}
+
+.special-foto {
+    max-width: 470px;
+}
+
+.special-foto img {
+    width: 100%;
+    height: auto;
+}
+
+.special>p {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.special>h1 {
+    color: #fff;
+    font-size: 68px;
+    font-family: "Poppins", sans-serif;
+}
+
+.special>h2 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+}
+
+.special-rent-button {
+    background-color: #fff;
+    height: 52px;
+    width: 123px;
+    border: white;
+    color: black;
+    font-size: 16.5px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.special-rent-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.special-character-button {
+    border: 3px solid #fff;
+    height: 47px;
+    width: 152px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: #fff;
+    background-color: brown;
+}
+
+.special-character-button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:992px) {
+    .info-special {
+        padding: 115px 32px;
+    }
+    .special>h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width:768px) {
+    .info-special {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 90px 24px;
+    }
+    .info-special.special-foto {
+        max-width: 100%;
+    }
+    .special>h1 {
+        font-size: 48px;
+    }
+}

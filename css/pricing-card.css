@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.pricing-card {
+    display: flex;
+    padding: 0 74px 0 74px;
+    justify-content: center;
+}
+
+.manual {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
+    margin: 10px;
+    padding: 30px;
+}
+
+.manual-info div {
+    padding-top: 20px;
+    display: flex;
+    align-items: start;
+}
+
+.manual img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.manual .per-month {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.manual-price span {
+    color: #c00407;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.manual-price {
+    color: black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding: 20px 0 20px 0;
+}
+
+.manual-line hr {
+    width: 14px;
+    border: 1px solid #c00407;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #c00407;
+}
+
+.manual-line span {
+    color: black;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.manual-info span {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.select {
+    background-color: black;
+    height: 47px;
+    width: 92px;
+    border: white;
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.select:hover {
+    background-color: #c00407;
+    color: white;
+}
+
+@media(max-width:1000px) {
+    .pricing-card {
+        flex-wrap: wrap;
+        padding: 0 32px 0 32px;
+    }
+    .manual {
+        max-width: 355px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pricing-card {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 15px 0 15px;
+    }
+}

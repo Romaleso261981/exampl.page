@@ -1,0 +1,130 @@
+.ask_container {
+    background: #ffeadf;
+}
+.ask_box {
+    max-width: 1200px;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+.ask_box_present__img {
+    width: 100%;
+    max-width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+@media (min-width: 838px) {
+    .ask_box {
+        display: flex;
+        /* max-height: 600px; */
+    }
+    .ask_box_content {
+        padding-right: 15px;
+        order: -1;
+    }
+    .ask_box_content__title {
+        font-size: 42px;
+    }
+}
+
+.ask_box_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 0 0;
+    
+}
+
+.ask_box_content__questions {
+    color: #c00407;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ask_box_content__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+.ask_box_content__title span {
+    color:#c00407;
+}
+.ask_box_content__subtitle {
+    color: #8c8c8c;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.ask_box_content_links {
+    margin: 20px 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+
+}
+.ask_box_content_links__faq {
+    padding: 16px 20px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    background: #c00407;
+    color: #fff;
+    text-decoration: none;
+}
+.ask_box_content_links__form {
+    padding: 13px 17px;
+    margin-right: 25px;
+    text-decoration: none;
+    border: 3px solid #3D4146;
+    color: #3D4146;
+    font-weight: bold;
+}
+
+
+
+
+@media (min-width: 574px) {
+    .counter_box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .counter_box_list {
+        flex: 0 0 50%;
+    }
+}
+@media (min-width: 1160px) {
+
+    .counter_box_list {
+        flex: 0 0 25%;
+    }
+}
+.counter_box_list {
+    padding: 70px;
+}
+.counter_box_list__first {
+    background: #c00407;
+}
+.counter_box_list__second {
+    background: #b20306;
+}
+.counter_box_list__third {
+    background: #a40407;
+}
+.counter_box_list__fourth {
+    background: #990207;
+}
+
+
+.counter_box_list_post {
+    text-align: center;
+}
+
+.counter_box_list_number {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5px;
+    padding-top: 16px;
+    color: #fff;
+    border-bottom: 3px solid rgb(253, 179, 179);
+}
+.counter_box_list_subtitle {
+    color: #e3e0e0;
+    text-align: center;
+    padding-top: 26px;
+}

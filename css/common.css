@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-color: #c00407;
+}
+
+.rental{
+    background-image: url(../img/background-coffe.jpg); 
+    background-size: cover;
+    background-position: center ;
+}
+.rental h1 {   
+    font-family: 'Poppins', sans-serif;
+    color:red;
+ }
+
+ .rental h2{    
+        font-family: 'Roboto Slab', serif;
+        color:black; 
+    }
+.rental button {
+    color: red
+}
+
+
+main div products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.offer {
+    background-image: url(../img/background-coffe-machine.jpg); 
+    background-size: cover;
+    background-position: center ;
+    height: 666px;
+}
+.partners{
+    background: #222222;
+ }

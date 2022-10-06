@@ -1,0 +1,85 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap");
+ .aroma-taste {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-items: center;
+ }
+ 
+ @media (max-width: 800px) {
+     .aroma-taste {
+         padding: 50px;
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+ }
+ 
+ .aroma-cup img {
+     width: 100%;
+     display: block;
+     border-radius: 30px;
+ }
+ 
+ .taste-picture img {
+     width: 70px;
+     height: 70px;
+ }
+ 
+ .coffee-taste>p {
+     color: #c00407;
+     font-size: 12px;
+     text-transform: uppercase;
+     font-family: "Roboto", sans-serif;
+     font-weight: bold;
+ }
+ 
+ .coffee-taste h1 {
+     color: #222;
+     font-size: 40px;
+     margin: 30px 0 10px 0;
+     font-family: "Poppins", sans-serif;
+ }
+ 
+ .coffee-taste h2 {
+     color: #656565;
+     font-size: 18px;
+     font-family: "Roboto", sans-serif;
+     line-height: 27px;
+     font-weight: 400;
+ }
+ 
+ .coffee-taste h3 {
+     color: #8c8c8c;
+     font-size: 16px;
+     margin: 30px 0 30px 0;
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     line-height: 25.6px;
+ }
+ 
+ .taste {
+     display: flex;
+     align-items: center;
+     /* margin: 10px; */
+ }
+ 
+ .description {
+     padding-left: 10px;
+ }
+ 
+ .description h1 {
+     color: #222;
+     font-size: 18px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     text-align: auto;
+     margin-bottom: 0;
+ }
+ 
+ .description p {
+     color: #8c8c8c;
+     font: size 16px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     line-height: 27px;
+     text-align: auto;
+ }

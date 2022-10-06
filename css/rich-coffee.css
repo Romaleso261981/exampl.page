@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap");
+.rich-coffee {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 35px 0px 35px 0px;
+}
+
+.rich-coffee>p {
+    color: #c00407;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.rich-coffee h1 {
+    color: #222;
+    font-size: 34px;
+    margin: 20px 0 10px 0;
+    font-family: "Poppins", sans-serif;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.rich-coffee h2 {
+    text-align: center;
+    color: #656565;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* @media (max-width: 800px) {
+    .rich-coffee {
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+} */

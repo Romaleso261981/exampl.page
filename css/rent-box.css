@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap");
+.rent-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 35px 0px 35px 0px;
+}
+
+.rent-box p {
+    color: #c00407;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rent-box h1 {
+    color: #222;
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.rent-box h2 {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin: 35px 0px 0px 0px;
+    font-weight: 400;
+}
